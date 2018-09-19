@@ -1,0 +1,65 @@
+body {
+  background: #252528;
+  color: #fff;
+  margin: 0 auto;
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.7;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.section-one {
+  padding-bottom: 5rem;
+}
+.hero-text, .extra-box {
+    padding-top: 7rem;
+  }
+h1 {
+  font-weight: 800;
+  font-size: 2.75rem;
+}
+.extra-box {
+  background: #1D1D20;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+
+  h4.extra-info {
+      font-weight: 400;
+      font-size: 1.25rem;
+      margin-bottom: 1.25rem;
+  }
+  h5.extra-desc {
+      font-size: 0.95rem;
+      font-family: monospace;
+      font-weight: 500;
+      margin-bottom: 0.5em;
+  }
+  a.btn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    border: 1px solid white;
+    padding: 1em 2.5em;
+    box-shadow: -5px 5px 0px white;
+    transition: 0.5s ease;
+  }
+
+  a.btn:hover {
+    box-shadow: -2px 2px 0px white;
+  }
+}
+
+img.green-pattern {
+    position: absolute;
+    right: 70px;
+    top: 25rem;
+    width: auto;
+    height: 170px;
+    z-index: -2;
+}
