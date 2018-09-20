@@ -23,17 +23,19 @@ const Header = ({ siteTitle }) => (
             src={logo} alt="Logo"
             style={{
               width: 'auto',
-              height: '60px',
+              height: '40px',
             }}
           />
         </Link>
-        <h4
+        <ul className="menu"
           style={{
             float:'right',
           }}
         >
-        Hello &#x1F44B;
-        </h4>
+          <li><Link to="about">About</Link></li>
+          <li>Work</li>
+          <li>Say Hello &#x1F44B;</li>
+        </ul>
     </div>
   </div>
 )

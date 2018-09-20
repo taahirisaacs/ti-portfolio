@@ -2,44 +2,158 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import GreenPattern from "../images/patterns/green-pattern.png"
-import iphone from "../images/iphone6.png"
+import print from "../images/skills/Print@2x.png"
+import web from "../images/skills/Web@2x.png"
+import dev from "../images/skills/Dev@2x.png"
+import hero from "../images/hero-bg.jpg"
 
 const IndexPage = () => (
-	<div className="row">
+	<div className="container">
+		
 		<div className="row section-one">
-			<div className="col-md-7 hero-text">
-			    <h1>A multidisciplinary digital designer, developer and strategist working from anywhere* there’s fast wifi.</h1>
-			    <p>I’ve been designing since I was 14, using MS Paint and MS Word as my canvas. Funnily enough, my first job in the tech space was as a newsletter developer. I sliced out newsletter elements and coded them up using some pre-historic programming language (Some say it was once used to transcribe revelation)</p>
-			</div>
-			<div className="col-md-1"></div>
 			<div className="col-md-4 extra-box">
 				<h5 className="extra-desc">Full Name:</h5>
 			    <h4 className="extra-info"> Taahir Isaacs</h4>
-			    <h5 className="extra-desc">Craft:</h5>
-			    <h4 className="extra-info"> Digital Design, WordPress, React, Gatsby.js</h4>
+			    <h5 className="extra-desc">Core skill:</h5>
+			    <h4 className="extra-info">Product & Visual Design</h4>
 			    <h5 className="extra-desc">Current Location:</h5>
-			    <h4 className="extra-info"> *Cape Flats &#x1F1FF;&#x1F1E6;</h4>
+			    <h4 className="extra-info"> *Cape Flats, South Africa &#x1F1FF;&#x1F1E6;</h4>
 			    <h5 className="extra-desc">Availibility:</h5>
-			    <h4 className="extra-info"> Available (60hours)</h4>
-			    <Link className="btn">Book a Skype call</Link>
-			    <img className="green-pattern" 
-					src={GreenPattern} alt="Green Pattern"
-				/>
+			    <h4 className="extra-info"> Available for Freelance</h4>
+			</div>
+			<div className="col-md-1"></div>
+			<div className="col-md-7 hero-text">
+			    <h1>A multifunctional designer/developer based anywhere* there’s fast wifi.</h1>
+			    <Link className="btn">Pop me an email</Link>
 			</div>
 		</div>
 
-		<div className="row section-two">
-			<div className="col-md-3">
-				<img className="iphone" 
-					src={iphone} alt="iphone"
-				/>
+		<section className="container skills">
+			<div className="row">
+				<p>Services</p>
 			</div>
-			<div className="col-md-1"></div>
-			<div className="col-md-7">
-				<h1>This site was made to showcase what I can do. Not what I did. So, look at everything designed and see the meaning behind it.</h1>
+			<div className="row services">
+				<div className="col-md-4 text-center">
+					<div className="row">
+						<div className="col-12 text-center">
+							<span className="icon"><img src={print} /></span>
+							<h4>Print, branding & graphic design</h4>
+							<p>Modern design mixed with the theory of traditional graphic design.</p>
+						</div>
+					</div>
+				</div>
+				<div className="col-md-4 text-center">
+					<div className="row">
+						<div className="col-12 text-center">
+							<span className="icon"><img src={web} /></span>
+							<h4>App & website design</h4>
+							<p>User-centered website and application design. Using Agile methods to produce quick and effective results.</p>
+						</div>
+					</div>
+				</div>
+				<div className="col-md-4 text-center">
+					<div className="row">
+						<div className="col-12 text-center">
+							<span className="icon"><img src={dev} /></span>
+							<h4>Front-end development</h4>
+							<p>The entire process from rapid prototyping, visual concepts to a fully functional live product.</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div className="col-md-1"></div>
-		</div>
+
+		</section>
+
+		<section className="container work">
+			<div className="row section-title">
+				<p>Selected Experience</p>
+			</div>
+			<div className="row work-list">
+
+				<div className="col-md-9 work-item">
+					<div className="row">
+						<div className="col-md-4">
+							<h4>On demand design services for tech start ups</h4>
+						</div>
+						<div className="col-md-4">
+							<h5 className="extra-desc">Company:</h5>
+					   		<p className="extra-info">Breadcrumb Studio</p>
+					   		<h5 className="extra-desc">Duties:</h5>
+					   		<p className="extra-info">Management & Design Lead</p>
+				   		</div>
+				   		<div className="col-md-4">
+							<h5 className="extra-desc">Role:</h5>
+					   		<p className="extra-info">Founder & Design Director</p>
+					   		<h5 className="extra-desc">Timeframe:</h5>
+					   		<p className="extra-info">Oct 2014 - Jul 2018</p>
+				   		</div>
+			   		</div>
+				</div>
+
+				<div className="col-md-9 work-item">
+					<div className="row">
+						<div className="col-md-4">
+							<Link to="resin">
+							<h4>Internet of Things software deployment done right.</h4>
+							</Link>
+						</div>
+						<div className="col-md-4">
+							<h5 className="extra-desc">Company:</h5>
+					   		<p className="extra-info">Resin.io</p>
+					   		<h5 className="extra-desc">Duties:</h5>
+					   		<p className="extra-info">Product & Marketing Design Lead</p>
+				   		</div>
+				   		<div className="col-md-4">
+							<h5 className="extra-desc">Role:</h5>
+					   		<p className="extra-info">UI/UX Contractor</p>
+					   		<h5 className="extra-desc">Timeframe:</h5>
+					   		<p className="extra-info">Nov 2014 - Oct 2017</p>
+				   		</div>
+			   		</div>
+				</div>
+
+				<div className="col-md-9 work-item">
+					<div className="row">
+						<div className="col-md-4">
+							<h4>Media intelligence software maker.</h4>
+						</div>
+						<div className="col-md-4">
+							<h5 className="extra-desc">Company:</h5>
+					   		<p className="extra-info">Meltwater</p>
+					   		<h5 className="extra-desc">Duties:</h5>
+					   		<p className="extra-info">Design & Development</p>
+				   		</div>
+				   		<div className="col-md-4">
+							<h5 className="extra-desc">Role:</h5>
+					   		<p className="extra-info">Digital Contractor</p>
+					   		<h5 className="extra-desc">Timeframe:</h5>
+					   		<p className="extra-info">Feb 2017 - Feb 2018</p>
+				   		</div>
+			   		</div>
+				</div>
+
+				<div className="col-md-9 work-item">
+					<div className="row">
+						<div className="col-md-4">
+							<h4>Automated legal spend management.</h4>
+						</div>
+						<div className="col-md-4">
+							<h5 className="extra-desc">Company:</h5>
+					   		<p className="extra-info">Apperio</p>
+					   		<h5 className="extra-desc">Duties:</h5>
+					   		<p className="extra-info">Design Lead</p>
+				   		</div>
+				   		<div className="col-md-4">
+							<h5 className="extra-desc">Role:</h5>
+					   		<p className="extra-info">Design Contractor</p>
+					   		<h5 className="extra-desc">Timeframe:</h5>
+					   		<p className="extra-info">Mar 2016 - Dec 2016</p>
+				   		</div>
+			   		</div>
+				</div>
+				
+			</div>
+		</section>
 	</div>
 )
 
