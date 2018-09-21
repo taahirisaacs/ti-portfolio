@@ -33,7 +33,6 @@ const Header = ({ siteTitle }) => (
           }}
         >
           <li><Link to="about">About</Link></li>
-          <li>Work</li>
           <li>Say Hello &#x1F44B;</li>
         </ul>
     </div>

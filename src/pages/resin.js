@@ -12,7 +12,7 @@ const Resin = () => (
 	    <div className="col-md-12 work-item">
 					<div className="row">
 						<div className="col-md-6">
-							<h1>Internet of Things software deployment done right.</h1>
+							<h1 className="work">Internet of Things software deployment done right.</h1>
 						</div>
 						<div className="col-md-3">
 							<h5 className="extra-desc">Company:</h5>
@@ -31,12 +31,10 @@ const Resin = () => (
     </section>
 
     <section className="row">
-
-    	<div className="col-md-6">
-    	</div>
-
-    	<div className="col-md-6">
-    		<p>I was contracted to handle resin.io's internal and external design systems. The initial backlog of design work ranged from the redesign of their marketing website to calibrating all marketing materials with their updated branding. The key was to prioritise implementation of their new brand on touchpoints their customers would reach first then work my way out to seldomly viewed assets.</p>
+    	<div className="col-md-6 offset-md-6">
+    		<p>I was contracted to handle resin.io's internal and external design systems. This would predominantly cover product design, however as I was the sole designer on the team - it ended up bleeding into the marketing site, documentation and other user touchpoints. The initial backlog of design work ranged from the redesign of their marketing website to calibrating all marketing materials with their updated branding. The key was to prioritise implementation of their new brand on touchpoints their customers would reach first then work my way out to seldomly viewed assets.</p>
+    		<p>The exciting challenge that was at my fingertips was designing a user-centric product dashboard for an IoT service. At this point in time, circa 2014, there wasn't really any dominant IoT player in the field so creating this dashboard would rely heavily on user testing and creating a solid feedback structure for improvements. We applied an agile methodology to how we shipped new design and features. This worked out fantastic as it gave existing users the ability to suggest alternatives to what we had given them. In the end, we shipped a V1 of the product that I was super proud of, as it really empathised with our users and their ultimate requirements. You can read the release blogpost here.</p>
+    		<p>Below you can see a selection of different mediums I designed for over a 3 year period at resin.io. There are a lot more but this gives you a gist of the scope of work.</p>
     	</div>
     </section>
     <section className="row">
@@ -44,7 +42,6 @@ const Resin = () => (
     		<img src={res1} />
     	</div>
     </section>
-
   </div>
 )
 
