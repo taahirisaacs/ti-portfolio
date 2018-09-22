@@ -8,7 +8,7 @@ const ContactPage = () => (
   			<h1>Salaam! Hello! Drop me a mail and I promise I will get back to you as soon as I have a chance.</h1>
   		</div>
   		<div className="col-md-6">
-  			<form name="contact" method="POST" netlify>
+  			<form name="contact" method="POST" data-netlify="true">
 			  <div className="form-group">
 			    <label for="InputName">Your Name:</label>
 			    <input type="text" name="name" className="form-control" id="InputName"/>
@@ -19,7 +19,7 @@ const ContactPage = () => (
 			  </div>
 			  <div className="form-group">
 			  	<label>What would you like to chat about?</label>
-			  	<textarea className="form-control" rows="5"></textarea>
+			  	<textarea className="form-control" rows="5" name="message"></textarea>
 			  </div>
 			  <div data-netlify-recaptcha></div>
 			  <div className="form-group">
