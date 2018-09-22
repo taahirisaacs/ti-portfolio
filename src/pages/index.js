@@ -25,7 +25,7 @@ const IndexPage = () => (
 			<div className="col-md-1"></div>
 			<div className="col-md-7 hero-text">
 			    <h1>A multifunctional designer/developer based anywhere* there’s fast wifi.</h1>
-			    <Link className="btn">Pop me an email</Link>
+			    <Link className="btn" to="/contact">Pop me an email</Link>
 			</div>
 		</div>
 
@@ -161,12 +161,6 @@ const IndexPage = () => (
 				
 			</div>
 		</section>
-
-		<div className="container footer">
-			<div className="copyright">
-				<p>This website was designed by <Link to="about">Taahir Isaacs</Link> using Sketch & developed with Gatsby.js & Bootstrap 4.</p>
-			</div>
-		</div>
 	</div>
 )
 
