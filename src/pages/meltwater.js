@@ -29,7 +29,24 @@ const Meltwater = () => (
     </section>
 
     <section className="row">
-    	<div className="col-md-6 offset-md-6">
+    	<div className="col-md-5 involvement">
+			<div className="row">
+				<div className="col-md-12">
+					<h5 className="involvment--title">Involvement</h5>
+					<ul>
+					<li>Product Design</li>
+					<li>User Experience Design</li>
+					<li>Marketing Site Design</li>
+					<li>Marketing Design</li>
+					<li>Illustration</li>
+					<li>Email Design</li>
+					<li>Graphic Design</li>
+					<li>WordPress Development</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    	<div className="col-md-6 offset-md-1">
     		<p>Working with Meltwater was a welcoming challenge. Not only did I handle the end to end digital design but also ended up managing the web development teams I had sourced for the projects we worked on.</p> 
 
     		<p>In the beginning our relationship started out with a few banners and mockup logos here and there. Then as all design projects go, the inevitable question came my way, “Can you design a website for us?” - my answer, as always “Sure.”</p>

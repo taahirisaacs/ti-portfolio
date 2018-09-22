@@ -8,7 +8,7 @@ const WorkList = () => (
 				<div className="col-md-9 work-item">
 					<div className="row">
 						<div className="col-md-4">
-							<Link to="resin" className="work-link">
+							<Link to="/resin/" className="work-link">
 							<h4>Internet of Things software deployment done right.</h4>
 							<p>View Work<span className="arrow-icn"><img src={arrow} /></span></p>
 							</Link>
@@ -31,7 +31,7 @@ const WorkList = () => (
 				<div className="col-md-9 work-item">
 					<div className="row">
 						<div className="col-md-4">
-							<Link to="meltwater" className="work-link">
+							<Link to="/meltwater/" className="work-link">
 							<h4>Media intelligence software maker.</h4>
 							<p>View Work<span className="arrow-icn"><img src={arrow} /></span></p>
 							</Link>
