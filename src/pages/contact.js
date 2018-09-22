@@ -21,7 +21,6 @@ const ContactPage = () => (
 			  	<label>What would you like to chat about?</label>
 			  	<textarea className="form-control" rows="5" name="message"></textarea>
 			  </div>
-			  <div data-netlify-recaptcha></div>
 			  <div className="form-group">
 			    <button type="submit" className="btn btn-primary">Send</button>
 			  </div>

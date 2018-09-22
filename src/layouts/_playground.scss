@@ -18,6 +18,7 @@ p {
 a {
   color:#fff;
   text-decoration:none;
+  transition:0.3s ease;
 }
 span.arrow-icn {
     display: inline-block;
@@ -28,13 +29,13 @@ span.arrow-icn {
 }
 a:hover {
   color:#fff;
+  opacity:0.8;
   text-decoration:none;
 
   span.arrow-icn {
       margin-left: 1rem;
   }
 }
-
 .header {
     // position: absolute;
     width: 100%;
@@ -205,4 +206,12 @@ section.row.title {
 label {
     display: inline-block;
     margin-bottom: 0.75rem;
+}
+section.row.about {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #2e2e2e;
+}
+section.row.tools {
+    margin-bottom: 3rem;
 }

@@ -32,9 +32,9 @@ const Header = ({ siteTitle }) => (
             float:'right',
           }}
         >
-          <li><Link to="/about">About</Link></li>
-          <li>Notes</li>
-          <li><Link to="/contact">Say Hello &#x1F44B;</Link></li>
+          <li><Link to="/about/">About</Link></li>
+          <li><Link to="/work/">Work</Link></li>
+          <li><Link to="/contact/">Say Hello &#x1F44B;</Link></li>
         </ul>
     </div>
   </div>
