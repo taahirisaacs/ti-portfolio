@@ -17,7 +17,7 @@ const WorkList = () => (
 							<h5 className="extra-desc">Company:</h5>
 					   		<p className="extra-info">Resin.io</p>
 					   		<h5 className="extra-desc">Role:</h5>
-					   		<p className="extra-info">UI/UX Contractor</p>					   		
+					   		<p className="extra-info">UI/UX Contractor</p>
 				   		</div>
 				   		<div className="col-md-4">
 							<h5 className="extra-desc">Duties:</h5>
@@ -55,7 +55,7 @@ const WorkList = () => (
 					<div className="row">
 						<div className="col-md-4">
 							<h4>Automated legal spend management.</h4>
-							<p>View Work<span className="arrow-icn"><img src={arrow} /></span></p>
+							<p>(Case study Coming Soon)</p>
 						</div>
 						<div className="col-md-4">
 							<h5 className="extra-desc">Company:</h5>
@@ -91,7 +91,7 @@ const WorkList = () => (
 					   		<p className="extra-info">Oct 2014 - Jul 2018</p>
 				   		</div>
 			   		</div>
-				</div>	
+				</div>
 			</div>
 )
 
