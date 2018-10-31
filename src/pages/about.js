@@ -8,7 +8,7 @@ const About = () => (
 
   	<section className="row title">
         <div className="col-md-12">
-	       <h1>A designer that codes, builds (failed) startups, changes diapers, and is happily married.</h1>
+	       <h1>A designer that codes, plays soccer, changes diapers, and is happily married.</h1>
         </div>
     </section>
 

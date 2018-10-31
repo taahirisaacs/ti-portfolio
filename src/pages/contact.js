@@ -5,7 +5,7 @@ const ContactPage = () => (
   <div className="container">
   	<section className="row">
   		<div className="col-md-6">
-  			<h1>Salaam! Hello! Drop me a mail and I promise I will get back to you as soon as I have a chance.</h1>
+  			<h1>Hello! Drop me a mail and I promise I will get back to you as soon as I have a chance.</h1>
   		</div>
   		<div className="col-md-6">
   			<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">

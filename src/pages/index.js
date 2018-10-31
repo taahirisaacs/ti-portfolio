@@ -10,7 +10,7 @@ import hero from "../images/hero-bg.jpg"
 
 const IndexPage = () => (
 	<div className="container">
-		
+
 		<div className="row section-one">
 			<div className="col-md-4 extra-box">
 				<h5 className="extra-desc">Full Name:</h5>
@@ -18,13 +18,13 @@ const IndexPage = () => (
 			    <h5 className="extra-desc">Core skill:</h5>
 			    <h4 className="extra-info">Product & Visual Design</h4>
 			    <h5 className="extra-desc">Current Location:</h5>
-			    <h4 className="extra-info"> *Cape Flats, South Africa &#x1F1FF;&#x1F1E6;</h4>
+			    <h4 className="extra-info"> *Cape Town, South Africa &#x1F1FF;&#x1F1E6;</h4>
 			    <h5 className="extra-desc">Availibility:</h5>
 			    <h4 className="extra-info"> Available for Freelance</h4>
 			</div>
 			<div className="col-md-1"></div>
 			<div className="col-md-7 hero-text">
-			    <h1>A multifunctional designer/developer based anywhere* there’s fast wifi.</h1>
+			    <h1>A multifunctional UI/UX Designer based anywhere* there’s fast wifi.</h1>
 			    <Link className="btn" to="/contact">Pop me an email</Link>
 			</div>
 		</div>
