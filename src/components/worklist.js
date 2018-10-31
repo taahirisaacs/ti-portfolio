@@ -54,8 +54,10 @@ const WorkList = () => (
 				<div className="col-md-9 work-item">
 					<div className="row">
 						<div className="col-md-4">
+              <Link to="/apperio/" className="work-link">
 							<h4>Automated legal spend management.</h4>
-							<p>(Case study Coming Soon)</p>
+              <p>View Work<span className="arrow-icn"><img src={arrow} /></span></p>
+							</Link>
 						</div>
 						<div className="col-md-4">
 							<h5 className="extra-desc">Company:</h5>
