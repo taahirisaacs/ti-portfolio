@@ -12,6 +12,14 @@ import res6 from "../images/case-study/res/res-6@2x.png"
 import res7 from "../images/case-study/res/res-7@2x.png"
 import res8 from "../images/case-study/res/res-8@2x.png"
 import res9 from "../images/case-study/res/res-9@2x.png"
+import ressty1 from "../images/case-study/res/res-styleguide-1.jpg"
+import ressty2 from "../images/case-study/res/res-styleguide-2.jpg"
+import ressty3 from "../images/case-study/res/res-styleguide-3.jpg"
+import ressty4 from "../images/case-study/res/res-styleguide-4.jpg"
+import ressty5 from "../images/case-study/res/res-styleguide-5.jpg"
+import ressty6 from "../images/case-study/res/res-styleguide-6.jpg"
+import ressty7 from "../images/case-study/res/res-styleguide-7.jpg"
+import ressty8 from "../images/case-study/res/res-styleguide-8.jpg"
 
 const Resin = () => (
   <div className="container">
@@ -87,6 +95,30 @@ const Resin = () => (
     	</div>
       <div className="col-md-12">
     		<img src={res9} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty1} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty2} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty3} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty4} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty5} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty6} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty7} />
+    	</div>
+      <div className="col-md-12">
+    		<img src={ressty8} />
     	</div>
     </section>
   </div>
